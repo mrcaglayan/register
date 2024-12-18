@@ -1,0 +1,282 @@
+{
+  "users": [
+    {
+      "username": "ufuk",
+      "password": "ufuk",
+      "schoolName": "Ariyana High School"
+    },
+    {
+      "username": "ali",
+      "password": "ali",
+      "schoolName": "Kabil New Okulu"
+    },
+    {
+      "username": "veli",
+      "password": "veli",
+      "schoolName": "Mezar-ı Şerif Okulu"
+    }
+  ],
+  "tables": [
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": false
+        }
+      ],
+      "data": [
+        ""
+      ]
+    },
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": true
+        }
+      ],
+      "data": [
+        "2024-02-01"
+      ]
+    },
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": true
+        },
+        {
+          "name": "İsim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        }
+      ],
+      "data": [
+        "2024-02-01",
+        ""
+      ]
+    },
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": true
+        },
+        {
+          "name": "İsim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        },
+        {
+          "name": "Soyisim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        }
+      ],
+      "data": [
+        "2024-02-01",
+        "",
+        ""
+      ]
+    },
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": true
+        },
+        {
+          "name": "İsim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        },
+        {
+          "name": "Soyisim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        },
+        {
+          "name": "Burs Oranı",
+          "type": "text",
+          "options": [],
+          "locked": false
+        }
+      ],
+      "data": [
+        "2024-02-01",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "headers": [
+        {
+          "name": "Kayıt Tarihi",
+          "type": "date",
+          "options": [],
+          "locked": true
+        },
+        {
+          "name": "İsim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        },
+        {
+          "name": "Soyisim",
+          "type": "text",
+          "options": [],
+          "locked": false
+        },
+        {
+          "name": "Burs Oranı",
+          "type": "dropdown",
+          "options": [
+            "Tam Ücret",
+            "%100 Magis Bursu",
+            "%50 İhtiyaç Bursu"
+          ],
+          "locked": false
+        }
+      ],
+      "data": [
+        "2024-02-01",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "year": 2024,
+      "name": "Ariyana High School",
+      "tuitionFee": 230000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0
+    },
+    {
+      "year": 2024,
+      "name": "Kabil New Okulu",
+      "tuitionFee": 100000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0
+    },
+    {
+      "year": 2024,
+      "name": "Mezar-ı Şerif Okulu",
+      "tuitionFee": 150000,
+      "lunchFee": 16000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0
+    }
+  ],
+  "students": [
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Süleyman",
+      "Soyisim": "Altun",
+      "Burs Oranı": "Tam Ücret"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Osman",
+      "Soyisim": "Uysal",
+      "Burs Oranı": "%50 İhtiyaç Bursu",
+      "username": "ali"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Güven",
+      "Soyisim": "Hızarcı",
+      "Burs Oranı": "%100 Magis Bursu",
+      "username": "ali"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Muhsin",
+      "Soyisim": "Hızarcı",
+      "Burs Oranı": "Tam Ücret",
+      "username": "ufuk"
+    }
+  ],
+  "completeentrydb": [
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Süleyman",
+      "Soyisim": "Altun",
+      "Burs Oranı": "Tam Ücret",
+      "year": 2024,
+      "name": "Kabil New Okulu",
+      "tuitionFee": 100000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0,
+      "username": "ali"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Osman",
+      "Soyisim": "Uysal",
+      "Burs Oranı": "%50 İhtiyaç Bursu",
+      "year": 2024,
+      "name": "Kabil New Okulu",
+      "tuitionFee": 100000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0,
+      "username": "ali"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Güven",
+      "Soyisim": "Hızarcı",
+      "Burs Oranı": "%100 Magis Bursu",
+      "year": 2024,
+      "name": "Kabil New Okulu",
+      "tuitionFee": 100000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0,
+      "username": "ali"
+    },
+    {
+      "Kayıt Tarihi": "2024-02-01",
+      "İsim": "Muhsin",
+      "Soyisim": "Hızarcı",
+      "Burs Oranı": "Tam Ücret",
+      "year": 2024,
+      "name": "Ariyana High School",
+      "tuitionFee": 230000,
+      "lunchFee": 20000,
+      "cloth": 0,
+      "books": 0,
+      "dormitory": 0,
+      "username": "ufuk"
+    }
+  ]
+}

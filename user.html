@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/user.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <div class="user-dashboard-container">
+        <h1>User Dashboard</h1>
+        <form id="entry-form">
+            <div id="table-container"></div>
+            <button type="button" id="add-entry">Submit Enrollment</button>
+            <button type="button" id="preview-entry">Preview</button>
+        </form>
+        <div id="entry-list-container">
+            <h2>List of Students</h2>
+            <table id="entry-list" class="modern-table">
+                <thead>
+                    <tr>
+                        <!-- Headers will be dynamically added here -->
+                    </tr>
+                </thead>
+                <tbody id="student-list">
+                    <!-- Entries will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+        <button type="button" id="back-button">Back to Home</button>
+    </div>
+    <script src="../src/user.js"></script>
+</body>
+</html>

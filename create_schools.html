@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Create Schools</title>
+</head>
+<body>
+    <div class="create-schools-container">
+        <h1>Create Schools</h1>
+        <form id="school-form">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>School Name</th>
+                        <th>Tuition Fee</th>
+                        <th>Lunch Fee</th>
+                        <th>Cloth</th>
+                        <th>Books</th>
+                        <th>Dormitory</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number" id="year" name="year" required></td>
+                        <td><input type="text" id="school-name" name="school-name" required></td>
+                        <td><input type="number" id="tuition-fee" name="tuition-fee" required></td>
+                        <td><input type="number" id="lunch-fee" name="lunch-fee" required></td>
+                        <td><input type="number" id="cloth" name="cloth" required></td>
+                        <td><input type="number" id="books" name="books" required></td>
+                        <td><input type="number" id="dormitory" name="dormitory" required></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" id="add-school">Add School</button>
+        </form>
+        <div id="school-list-container"></div>
+        <button type="button" id="back-button">Back to Admin</button>
+    </div>
+    <script src="../src/create_schools.js"></script>
+</body>
+</html>

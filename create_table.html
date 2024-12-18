@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Create Table</title>
+</head>
+<body>
+    <div class="create-table-container">
+        <h1>Create Table</h1>
+        <form id="table-form">
+            <div class="form-group">
+                <label for="header-name">Header Name:</label>
+                <input type="text" id="header-name" name="header-name" required>
+            </div>
+            <div class="form-group">
+                <label for="data-entry-type">Data Entry Type:</label>
+                <select id="data-entry-type" name="data-entry-type" required>
+                    <option value="text">Text</option>
+                    <option value="number">Number</option>
+                    <option value="date">Date</option>
+                    <option value="dropdown">Dropdown</option>
+                </select>
+            </div>
+            <div class="form-group" id="dropdown-options-group" style="display: none;">
+                <label for="dropdown-options" id="dropdown-options-label">Dropdown Options (comma-separated):</label>
+                <input type="text" id="dropdown-options" name="dropdown-options">
+            </div>
+            <button type="button" id="add-header">Add Header</button>
+        </form>
+        <div id="table-container"></div>
+        <button type="button" id="back-button">Back to Admin</button>
+    </div>
+    <script src="../src/create_table.js"></script>
+</body>
+</html>
